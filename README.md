@@ -1,4 +1,3 @@
-Here’s the updated `README.md` to reflect the changes you made to the transaction routes, including dynamic category creation, transaction operations, and summary calculations:
 
 ```markdown
 # Personal Expense Tracker API
@@ -256,8 +255,9 @@ You can test the API using Postman or other tools. Below are the steps to follow
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-```
+
 
 ### Key Clarifications:
 - **Dynamic Category Creation**: The API will create a new category if it doesn’t exist when adding or updating a transaction.
 - **Get Summary Endpoint**: Added a route to get an income-expense summary for a given date range.
+```
